@@ -9,14 +9,27 @@
 </head>
 <body>
  <div class="container">
-    <form>
+    <form method="get" action="#null" autocomplete="on">
         <h3>Input User Information</h3>
-        <input type="text" placeholder="Email" required>
-        <input type="text" placeholder="Phone Number" required>
-        <input type="text" placeholder="Date of Birth" required>
-
+        <div class="textinput">
+            <label>
+                <input type="text" name="emailAddress" placeholder="E-Mail" id="emailAddress">
+            </label>
+        </div>
+        <div class="textinput">
+            <label>
+                <input type="text" name="phoneNumber" placeholder="Phone Number" id="phoneNumber">
+            </label>
+        </div>
+        <div class="dateofbirth">
+            <label>
+                <input type="date" name="dateOfBirth" placeholder="Date Of Birth" id="dateofBirth">
+            </label>
+        </div>
         <div class="btn-box">
-            <button type="button">Submit</button>
+            <label>
+                <button type="submit">Submit</button>
+            </label>
         </div>
     </form>
  </div>
