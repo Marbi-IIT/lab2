@@ -2,6 +2,7 @@ body {
     width: 1920px;
     height: 1080px;
     background-image: linear-gradient(to top right, red, blue);
+    font-family: 'Roboto','Open Sans','Arial';
 }
 
 .container {
@@ -17,6 +18,7 @@ h3 {
     text-align: center;  
     margin-bottom: 40px;
     color: black;
+    font-size: x-large;
 }
 
 .container form {
