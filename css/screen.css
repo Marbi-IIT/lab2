@@ -1,6 +1,5 @@
-body { 
-    width: 1920px;
-    height: 1080px;
+html, .container { 
+    height: 100vh;
     background-image: linear-gradient(to top right, red, blue);
     font-family: 'Roboto','Open Sans','Arial';
 }
