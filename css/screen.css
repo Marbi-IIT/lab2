@@ -3,3 +3,12 @@ body {
     height: 1080px;
     background-image: linear-gradient(to top right, red, blue);
 }
+
+.containter {
+    width: 400px; 
+    height: 400px; 
+    margin: 8% auto; 
+    background: #fff; 
+    border-radius: 5px; 
+    position: relative; 
+}
