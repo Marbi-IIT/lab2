@@ -1,5 +1,5 @@
 html, .container { 
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to top right, red, blue);
     font-family: 'Roboto','Open Sans','Arial';
 }
